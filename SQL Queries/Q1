@@ -1,0 +1,7 @@
+// Q. Print the Second Highest Salary of Employee's in Each Department.
+
+SELECT SALARY
+FROM EMPLOYEE
+GROUP BY DEPARTMENT
+ORDER BY SALARY DESC
+LIMIT 2,1
