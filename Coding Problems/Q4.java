@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+// Q4. Product of Array Except Self.
+
 public class Q4{
     public static void main(String[] args) {
         int nums[] = {1,2,3,4};    // O/P [24,12,8,6]

@@ -44,6 +44,83 @@ Output: [24,12,8,6]
 Input: nums = [-1,1,0,-3,3]
 Output: [0,0,9,0,0]
 ```
+<br>
+
+```diff
+Q5. You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
+
+Find two lines that together with the x-axis form a container, such that the container contains the most water.
+
+Return the maximum amount of water a container can store.
+
++ Example 1:
+
+Input: height = [1,8,6,2,5,4,8,3,7]
+Output: 49
+Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
+```
+<br>
+
+```diff
+Q.6 Given an integer array nums, find the subarray with the largest sum, and return its sum.
+
++ Example 1:
+
+Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
+Output: 6
+Explanation: The subarray [4,-1,2,1] has the largest sum 6.
+
++ Example 2:
+
+Input: nums = [1]
+Output: 1
+Explanation: The subarray [1] has the largest sum 1.
+
++ Example 3:
+
+Input: nums = [5,4,-1,7,8]
+Output: 23
+Explanation: The subarray [5,4,-1,7,8] has the largest sum 23.
+```
+<br>
+
+```diff
+Q.7 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+You can return the answer in any order.
+
++ Example 1:
+
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+
++ Example 2:
+
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+
++ Example 3:
+
+Input: nums = [3,3], target = 6
+Output: [0,1]
+```
+
+<br>
+
+```diff
+Q8. You are given an unsorted array, which contains elements and number of INFINITY sign at the end of the array. your task is to return the first index of INFINITY sign.
+
++ Example 1:
+
+Input : arr = [-24,40,55,1,2,27,-89,INFINITY,INFINITY,INFINITY]
+Output : 7
+Explanation: First INFINITY at the index of 7.
+```
+
+
 <br><br>
 ## 2. SQL Queries <br>
 
